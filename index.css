@@ -1,0 +1,54 @@
+@font-face {
+    font-family: metalFont;
+    src: url("metal-lord.regular.ttf") format("truetype");
+  }
+
+  html {
+    background: url("parchmentBackground.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .name-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .name {
+      font-family: metalFont;
+      font-size: calc(50px + (100 - 50) * ((100vw - 320px) / (3600 - 320)));
+      margin-bottom: 0;
+  }
+
+  .sub-title {
+      margin-top: 0;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .linkedin-logo, .github-logo, .email-logo {
+      height: 36px;
+  }
+
+  .linkedin-container, .github-container, .email-contatiner {
+      padding-bottom: 30px;
+  }
+
+  a {
+      font-size: 36px;
+      color: #000000;
+  }
